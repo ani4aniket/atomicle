@@ -20,5 +20,7 @@
     "babel-loader": "^8.1.0",
     "react-is": "^17.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "styled-components": "^5.2.0"
+  }
 }
