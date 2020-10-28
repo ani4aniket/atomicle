@@ -21,6 +21,7 @@
     "react-is": "^17.0.1"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "styled-components": "^5.2.0"
   }

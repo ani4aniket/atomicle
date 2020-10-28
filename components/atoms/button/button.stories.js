@@ -9,7 +9,9 @@ const buttonClicked = (e) => {
 };
 
 export const functionButton = () => (
-  <Button onClick={buttonClicked}>Function button</Button>
+  <Button onClick={buttonClicked} variant="secondary">
+    Function button
+  </Button>
 );
 
 export const linkedButton = () => <Button href="/route">Linked button</Button>;
