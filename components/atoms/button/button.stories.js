@@ -1,4 +1,5 @@
 import React from "react";
+import { withDesign } from "storybook-addon-designs";
 import Button from "./button";
 
 const buttonClicked = (e) => {
@@ -19,7 +20,19 @@ export const functionButton = () => (
 );
 export const linkedButton = () => <Button href="/route">Linked button</Button>;
 
+basicButton.story = {
+  name: "Basic Button",
+  parameters: {
+    design: {
+      type: "figma",
+      url:
+        "https://www.figma.com/file/5DExbYWfiOx8UumMD2cmAr/P-Pine-UI-Framework?node-id=12%3A71",
+    },
+  },
+};
+
 export default {
   component: Button,
   title: "Button",
+  decorators: [withDesign],
 };
